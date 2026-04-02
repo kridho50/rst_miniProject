@@ -1,0 +1,24 @@
+; MT5_EA_Trading.set
+; File Preset Parameter untuk EA Trading Moving Average Crossover
+; Versi: 1.00
+; Dioptimalkan untuk: Akun Micro/Cent - Pemula
+; -------------------------------------------------------
+; CARA GUNAKAN:
+; 1. Buka dialog EA di MT5 (klik dua kali EA di Navigator)
+; 2. Klik tombol "Load" pada tab Inputs
+; 3. Pilih file MT5_EA_Trading.set ini
+; 4. Klik OK untuk menerapkan setting
+; -------------------------------------------------------
+
+[EA Trading - Preset Pemula Micro/Cent]
+LotSize=0.01
+StopLoss=50
+TakeProfit=100
+MagicNumber=123456
+FastMA=10
+SlowMA=50
+Timeframe=16385 ; PERIOD_H1 (Timeframe 1 Jam)
+Slippage=10
+UseTrailingStop=true
+TrailingStop=30
+TrailingStep=5
